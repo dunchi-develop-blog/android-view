@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:flexWrap="wrap"
+    app:alignItems="stretch"
+    app:alignContent="stretch"
+    tools:context=".general.FlexboxLayoutActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="center"
+        android:gravity="center"
+        android:background="#d9598c"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="1"
+        android:gravity="center"
+        android:background="#db706c"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="2"
+        android:gravity="center"
+        android:background="#f3aa51"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="3"
+        android:gravity="center"
+        android:background="#fcf695"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="4"
+        android:gravity="center"
+        android:background="#cee5d5"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="5"
+        android:gravity="center"
+        android:background="#a7e0e1"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="6"
+        android:gravity="center"
+        android:background="#b7d3e9"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="7"
+        android:gravity="center"
+        android:background="#567ace"/>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="8"
+        android:gravity="center"
+        android:background="#bbb0dc"/>
+
+</com.google.android.flexbox.FlexboxLayout>
