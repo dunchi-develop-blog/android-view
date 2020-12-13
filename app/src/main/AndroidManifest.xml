@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".general.AbsoluteLayout"></activity>
+        <activity android:name=".general.AbsoluteLayoutActivity"></activity>
         <activity android:name=".general.TableLayoutActivity" />
         <activity android:name=".general.MotionLayoutActivity" />
         <activity android:name=".general.ConstraintLayoutActivity" />
