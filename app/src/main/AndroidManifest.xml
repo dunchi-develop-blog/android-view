@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".general.FlexboxLayoutActivity"></activity>
+        <activity android:name=".adapter.listview.ListViewActivity"></activity>
+        <activity android:name=".general.FlexboxLayoutActivity" />
         <activity android:name=".general.AbsoluteLayoutActivity" />
         <activity android:name=".general.TableLayoutActivity" />
         <activity android:name=".general.MotionLayoutActivity" />
