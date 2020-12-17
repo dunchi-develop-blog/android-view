@@ -10,7 +10,6 @@ class RecyclerViewActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var recyclerViewAdapter: RecyclerViewAdapter
-    private lateinit var
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
