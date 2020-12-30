@@ -21,5 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, spinnerItems)
         spinner.adapter = adapter
+
+        webView.loadUrl("https://dunchi.tistory.com/")
     }
 }
