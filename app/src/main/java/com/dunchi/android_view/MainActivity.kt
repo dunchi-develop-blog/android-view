@@ -3,6 +3,7 @@ package com.dunchi.android_view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.webkit.WebViewClient
 import android.widget.ArrayAdapter
 import com.dunchi.android_view.general.MotionLayoutActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -23,5 +24,6 @@ class MainActivity : AppCompatActivity() {
         spinner.adapter = adapter
 
         webView.loadUrl("https://dunchi.tistory.com/")
+        webView.webViewClient = WebViewClient()
     }
 }
